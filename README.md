@@ -1,5 +1,7 @@
 # Travel - Adobe Target Testing Mini-Site
 
+**DISCLAIMER: This is purely a learning project created for educational purposes only. All content, images, and code are intended for personal learning and practice with Adobe Target. This project should not be used for commercial purposes.**
+
 A simple travel booking mini-site designed for testing Adobe Target personalization and A/B testing features. This project is built with pure HTML, CSS, and JavaScript, making it easy to deploy on GitHub Pages.
 
 ## Overview
@@ -117,4 +119,4 @@ This site is designed to be easily deployed on GitHub Pages:
 
 ## License
 
-This project is available for personal and educational use.
+This project is available for personal and educational use only. This is purely a learning project and should not be used for commercial purposes. Any resemblance to real websites or services is coincidental and intended only for educational demonstration.
