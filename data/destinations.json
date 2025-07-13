@@ -1,0 +1,154 @@
+{
+  "destinations": [
+    {
+      "id": "paris",
+      "name": "Paris",
+      "country": "France",
+      "continent": "Europe",
+      "description": "The city of lights and romance",
+      "shortDescription": "Experience the magic of the Eiffel Tower and charming cafes",
+      "price": 1299,
+      "currency": "USD",
+      "image": "images/destinations/paris.jpg",
+      "featured": true,
+      "recommendedFor": ["Europe", "Asia", "North America"],
+      "highlights": [
+        "Visit the iconic Eiffel Tower",
+        "Explore the world-famous Louvre Museum",
+        "Stroll down the Champs-Élysées",
+        "Experience the charm of Montmartre",
+        "Take a boat tour on the Seine River"
+      ],
+      "details": {
+        "duration": "7 days",
+        "includes": "Flights, Hotel, Tours",
+        "bestTimeToVisit": "April to October"
+      }
+    },
+    {
+      "id": "bali",
+      "name": "Bali",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "description": "Tropical paradise with stunning beaches",
+      "shortDescription": "Relax on pristine beaches and explore ancient temples",
+      "price": 1499,
+      "currency": "USD",
+      "image": "images/destinations/bali.jpg",
+      "featured": true,
+      "recommendedFor": ["Asia", "Oceania", "North America"],
+      "highlights": [
+        "Relax on beautiful beaches like Kuta and Seminyak",
+        "Visit ancient temples like Uluwatu and Tanah Lot",
+        "Experience traditional Balinese culture",
+        "Explore the rice terraces of Tegallalang",
+        "Enjoy water activities like surfing and snorkeling"
+      ],
+      "details": {
+        "duration": "10 days",
+        "includes": "Flights, Resort, Some Meals",
+        "bestTimeToVisit": "May to September"
+      }
+    },
+    {
+      "id": "tokyo",
+      "name": "Tokyo",
+      "country": "Japan",
+      "continent": "Asia",
+      "description": "Ultra-modern city with rich traditions",
+      "shortDescription": "Experience the perfect blend of tradition and innovation",
+      "price": 1799,
+      "currency": "USD",
+      "image": "images/destinations/tokyo.jpg",
+      "featured": false,
+      "recommendedFor": ["Asia", "North America", "Europe"],
+      "highlights": [
+        "Visit the bustling Shibuya Crossing",
+        "Explore the historic Senso-ji Temple",
+        "Experience the vibrant nightlife of Shinjuku",
+        "Shop in the trendy district of Harajuku",
+        "Enjoy authentic Japanese cuisine"
+      ],
+      "details": {
+        "duration": "8 days",
+        "includes": "Flights, Hotel, Tokyo Metro Pass",
+        "bestTimeToVisit": "March to May or September to November"
+      }
+    },
+    {
+      "id": "new-york",
+      "name": "New York",
+      "country": "USA",
+      "continent": "North America",
+      "description": "The city that never sleeps",
+      "shortDescription": "Explore iconic landmarks in the world's most famous city",
+      "price": 1399,
+      "currency": "USD",
+      "image": "images/destinations/new-york.jpg",
+      "featured": true,
+      "recommendedFor": ["North America", "Europe", "Asia"],
+      "highlights": [
+        "See the iconic Statue of Liberty",
+        "Walk through Central Park",
+        "Visit the Metropolitan Museum of Art",
+        "Experience the bright lights of Times Square",
+        "Enjoy the view from the Empire State Building"
+      ],
+      "details": {
+        "duration": "6 days",
+        "includes": "Flights, Hotel, City Pass",
+        "bestTimeToVisit": "April to June or September to November"
+      }
+    },
+    {
+      "id": "rome",
+      "name": "Rome",
+      "country": "Italy",
+      "continent": "Europe",
+      "description": "Ancient history and delicious cuisine",
+      "shortDescription": "Walk through history in the Eternal City",
+      "price": 1199,
+      "currency": "USD",
+      "image": "images/destinations/rome.jpg",
+      "featured": false,
+      "recommendedFor": ["Europe", "North America", "South America"],
+      "highlights": [
+        "Visit the ancient Colosseum",
+        "Explore the Vatican Museums and St. Peter's Basilica",
+        "Throw a coin in the Trevi Fountain",
+        "Wander through the Roman Forum",
+        "Enjoy authentic Italian cuisine"
+      ],
+      "details": {
+        "duration": "7 days",
+        "includes": "Flights, Hotel, Some Tours",
+        "bestTimeToVisit": "April to June or September to October"
+      }
+    },
+    {
+      "id": "cape-town",
+      "name": "Cape Town",
+      "country": "South Africa",
+      "continent": "Africa",
+      "description": "Stunning coastal city with mountain views",
+      "shortDescription": "Experience the beauty of Table Mountain and pristine beaches",
+      "price": 1599,
+      "currency": "USD",
+      "image": "images/destinations/cape-town.jpg",
+      "featured": false,
+      "recommendedFor": ["Africa", "Europe", "Asia"],
+      "highlights": [
+        "Take the cable car up Table Mountain",
+        "Visit the historic Robben Island",
+        "Explore the vibrant V&A Waterfront",
+        "Relax on the beaches of Camps Bay",
+        "Take a day trip to Cape Point"
+      ],
+      "details": {
+        "duration": "9 days",
+        "includes": "Flights, Hotel, Safari Tour",
+        "bestTimeToVisit": "October to April"
+      }
+    }
+  ]
+}

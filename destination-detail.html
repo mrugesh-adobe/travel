@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination Details - Travel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/notifications.css">
+    <!-- Adobe Launch Script would go here in production -->
+    <script>
+        // Placeholder for Adobe Launch script
+        console.log("Adobe Launch script would be loaded here");
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Travel</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="offers.html">Special Offers</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- This section will be dynamically populated based on the destination ID -->
+    <section class="destination-detail" id="destination-detail-container">
+        <!-- Placeholder content that will be replaced by JavaScript -->
+        <div class="container">
+            <div class="destination-header">
+                <h1>Paris, France</h1>
+                <p class="destination-tagline">The city of lights and romance</p>
+            </div>
+
+            <div class="destination-gallery">
+                <div class="main-image">
+                    <img src="images/destinations/paris.jpg" alt="Paris">
+                </div>
+                <div class="thumbnail-images">
+                    <img src="images/destinations/paris.jpg" alt="Paris" class="active">
+                    <img src="images/destinations/paris.jpg" alt="Paris">
+                    <img src="images/destinations/paris.jpg" alt="Paris">
+                </div>
+            </div>
+
+            <div class="destination-content">
+                <div class="destination-info-container">
+                    <div class="destination-description">
+                        <h2>About Paris</h2>
+                        <p>Paris, the capital of France, is known worldwide for its stunning architecture, art museums, historical landmarks, and romantic atmosphere. The city is filled with iconic attractions like the Eiffel Tower, Notre-Dame Cathedral, and the Louvre Museum.</p>
+                        <p>Visitors can enjoy strolling along the Seine River, exploring charming neighborhoods like Montmartre, and indulging in delicious French cuisine at local cafes and restaurants.</p>
+                        
+                        <h3>Highlights</h3>
+                        <ul>
+                            <li>Visit the iconic Eiffel Tower</li>
+                            <li>Explore the world-famous Louvre Museum</li>
+                            <li>Stroll down the Champs-Élysées</li>
+                            <li>Experience the charm of Montmartre</li>
+                            <li>Take a boat tour on the Seine River</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Adobe Target: Pricing Display A/B Test -->
+                    <div class="destination-booking" data-adobe-target="pricing-display">
+                        <div class="booking-card">
+                            <h3>Plan Your Trip</h3>
+                            <div class="price-container">
+                                <span class="price-label">Starting from</span>
+                                <span class="price">$1,299</span>
+                                <span class="price-duration">per person</span>
+                            </div>
+                            <div class="booking-details">
+                                <div class="booking-detail">
+                                    <span class="detail-label">Duration:</span>
+                                    <span class="detail-value">7 days</span>
+                                </div>
+                                <div class="booking-detail">
+                                    <span class="detail-label">Includes:</span>
+                                    <span class="detail-value">Flights, Hotel, Tours</span>
+                                </div>
+                                <div class="booking-detail">
+                                    <span class="detail-label">Best time to visit:</span>
+                                    <span class="detail-value">April to October</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Adobe Target: CTA Button A/B Test -->
+                            <div class="booking-cta" data-adobe-target="cta-button">
+                                <a href="#booking-form" class="btn btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Adobe Target: Booking Form Personalization -->
+            <div class="booking-form-container" id="booking-form" data-adobe-target="booking-form">
+                <h2>Book Your Trip</h2>
+                <form id="destination-booking-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="travel-date">Departure Date</label>
+                            <input type="date" id="travel-date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="travelers">Number of Travelers</label>
+                            <input type="number" id="travelers" min="1" value="2" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="full-name">Full Name</label>
+                            <input type="text" id="full-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email-booking">Email</label>
+                            <input type="email" id="email-booking" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="special-requests">Special Requests</label>
+                        <textarea id="special-requests" rows="3"></textarea>
+                    </div>
+                    <div class="form-submit">
+                        <button type="submit" class="btn btn-primary">Request Booking</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <h2>Get Inspired</h2>
+            <p>Sign up for our newsletter to receive exclusive offers and travel inspiration</p>
+            <form id="newsletter-form">
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Travel</h3>
+                    <p>Your journey begins with us</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="offers.html">Special Offers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: info@travel.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Travel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/destination-detail.js"></script>
+    <!-- Adobe Target Integration Script -->
+    <script src="js/adobe-target-integration.js"></script>
+</body>
+</html>

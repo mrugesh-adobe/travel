@@ -1,0 +1,58 @@
+/* 
+ * Wanderlust Travel - Notifications Stylesheet
+ * Styles for notification messages
+ */
+
+/* Notification container */
+.notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 25px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    max-width: 300px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Show notification */
+.notification.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Success notification */
+.notification.success {
+    background-color: var(--success, #4caf50);
+}
+
+/* Error notification */
+.notification.error {
+    background-color: var(--error, #f44336);
+}
+
+/* Info notification */
+.notification.info {
+    background-color: var(--primary-color, #1e88e5);
+}
+
+/* Warning notification */
+.notification.warning {
+    background-color: #ff9800;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .notification {
+        bottom: 10px;
+        right: 10px;
+        left: 10px;
+        max-width: none;
+        text-align: center;
+    }
+}

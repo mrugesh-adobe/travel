@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Offers - Travel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/notifications.css">
+    <!-- Adobe Launch Script would go here in production -->
+    <script>
+        // Placeholder for Adobe Launch script
+        console.log("Adobe Launch script would be loaded here");
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Travel</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="offers.html" class="active">Special Offers</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Special Offers</h1>
+            <p>Limited-time deals on amazing destinations</p>
+        </div>
+    </section>
+
+    <!-- Adobe Target: Promotional Banner A/B Test -->
+    <section class="promo-banner" data-adobe-target="promo-banner">
+        <div class="container">
+            <div class="promo-content">
+                <h2>Summer Sale</h2>
+                <p>Get up to 30% off on selected destinations when you book before August 31st</p>
+                <a href="#summer-deals" class="btn btn-primary">View Deals</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Adobe Target: Offers Personalization -->
+    <section class="offers-section" id="summer-deals" data-adobe-target="offers-personalization">
+        <div class="container">
+            <h2 class="section-title">Limited Time Offers</h2>
+            <p class="section-subtitle">Book now to secure these amazing deals</p>
+            
+            <div class="offers-grid" id="offers-container">
+                <!-- Offers will be loaded dynamically via JavaScript -->
+                <!-- This is a placeholder for the structure -->
+                <div class="offer-card">
+                    <div class="offer-badge">30% OFF</div>
+                    <div class="offer-image">
+                        <img src="images/destinations/bali.jpg" alt="Bali">
+                    </div>
+                    <div class="offer-info">
+                        <h3>Bali Paradise</h3>
+                        <p>7 days in tropical paradise</p>
+                        <div class="offer-price">
+                            <span class="original-price">$1,899</span>
+                            <span class="discounted-price">$1,329</span>
+                        </div>
+                        <div class="offer-timer" data-end-date="2025-08-31">
+                            <span class="timer-label">Offer ends in:</span>
+                            <span class="countdown">30 days</span>
+                        </div>
+                        <a href="destination-detail.html?id=bali" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <h2>Get Inspired</h2>
+            <p>Sign up for our newsletter to receive exclusive offers and travel inspiration</p>
+            <form id="newsletter-form">
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Travel</h3>
+                    <p>Your journey begins with us</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="offers.html">Special Offers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: info@travel.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Travel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/offers.js"></script>
+    <!-- Adobe Target Integration Script -->
+    <script src="js/adobe-target-integration.js"></script>
+</body>
+</html>
