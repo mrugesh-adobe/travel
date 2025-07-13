@@ -16,6 +16,19 @@ document.addEventListener('DOMContentLoaded', function() {
  */
 const destinationsData = [
     {
+        id: 'india',
+        name: 'India',
+        country: 'India',
+        continent: 'Asia',
+        description: 'Land of diverse cultures and rich heritage',
+        shortDescription: 'Explore ancient temples, vibrant cities, and breathtaking landscapes',
+        price: 1599,
+        currency: 'USD',
+        image: 'images/destinations/india.jpg', // Placeholder image until India image is added
+        featured: true,
+        recommendedFor: ['Asia', 'Europe', 'North America']
+    },
+    {
         id: 'paris',
         name: 'Paris',
         country: 'France',

@@ -1,6 +1,31 @@
 {
   "destinations": [
     {
+      "id": "india",
+      "name": "India",
+      "country": "India",
+      "continent": "Asia",
+      "description": "Land of diverse cultures and rich heritage",
+      "shortDescription": "Explore ancient temples, vibrant cities, and breathtaking landscapes",
+      "price": 1599,
+      "currency": "USD",
+      "image": "images/destinations/india.jpg",
+      "featured": true,
+      "recommendedFor": ["Asia", "Europe", "North America"],
+      "highlights": [
+        "Visit the iconic Akshardham Temple in Delhi",
+        "Explore the ancient temples of Varanasi",
+        "Experience the vibrant culture of Delhi",
+        "Relax on the beaches of Goa",
+        "Discover the majestic palaces of Rajasthan"
+      ],
+      "details": {
+        "duration": "10 days",
+        "includes": "Flights, Hotel, Some Tours",
+        "bestTimeToVisit": "October to March"
+      }
+    },
+    {
       "id": "paris",
       "name": "Paris",
       "country": "France",
