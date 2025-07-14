@@ -387,6 +387,24 @@ footer {
     font-size: 1rem;
 }
 
+/* Filter Recommendations */
+.filter-recommendations {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+.recommendation-text {
+    color: var(--text-light);
+    margin: 0;
+}
+.recommendation-text a {
+    color: var(--primary-color);
+    text-decoration: underline;
+    font-weight: 500;
+}
+.recommendation-text a:hover {
+    color: var(--primary-dark);
+}
+
 /* ===== All Destinations ===== */
 .all-destinations {
     padding: var(--spacing-xl) 0;
